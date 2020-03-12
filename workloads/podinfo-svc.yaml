@@ -6,7 +6,7 @@ metadata:
   labels:
     app: podinfo
 spec:
-  type: NodeIP
+  type: NodePort
   selector:
     app: podinfo
   ports:
